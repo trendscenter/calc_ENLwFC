@@ -12,6 +12,7 @@ function [ENLwFC] = calc_ENLwFC(data)
 data = zscore(data);
 
 LINwFC = single(corr(data));
+LINwFC(isnan(LINwFC))=0;
 NLwFC = calc_dcorr(data);
 
 NLwFC = reshape(NLwFC,[nF*nF 1]);
