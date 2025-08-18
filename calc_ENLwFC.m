@@ -1,9 +1,7 @@
 function [ENLwFC] = calc_ENLwFC(data)
 % This function can be used to calculate an explicitly nonlinear functional
 % connectivity matrix for fMRI time series data. data: time*feature
-% Cf. Kinsey et al. "Networks extracted from nonlinear fMRI connectivity
-% exhibit unique spatial variation and enhanced sensitivity to differences
-% between individuals with schizophrenia and controls" 
+% Cf. Kinsey et al. Networks extracted from nonlinear fMRI connectivity exhibit unique spatial variation and enhanced sensitivity to differences between individuals with schizophrenia and controls. Nat. Mental Health 2, 1464–1475 (2024). DOI: https://doi.org/10.1038/s44220-024-00341-y
 % skinsey8@gsu.edu
 % airaji@gsu.edu
 % This code file is licensed under the MIT License (see LICENSE).
